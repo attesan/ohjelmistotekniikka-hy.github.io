@@ -181,6 +181,8 @@ Tämä johtuu siitä, että emme ole projektin virtuaaliympäristön sisällä, 
 
 ```bash
 poetry run python3 src/index.py
+jos yllä oleva ei toimi, kokeile
+poetry run py src/index.py
 ```
 
 `poetry run`-komento siis suorittaa annetun komennon virtuaaliympäristössä, jonka sisällä Python löytää riippuvuutemme.
